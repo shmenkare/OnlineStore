@@ -1,0 +1,89 @@
+﻿body {
+	background-color: #1c2833;
+	font-family: Arial;
+	color: #d4ac0d;
+}
+
+#form 
+{
+	background-color: #154360;
+	border-style: solid;
+	border-color: #d4ac0d;
+	padding: 20px;
+	margin-top: 2%;
+	margin-right: 30%;
+	margin-bottom: 40%;
+	/*margin-left: 28%;*/
+	border-radius: 8px;
+	width: 500px;
+	
+}
+
+#txtCantidad {
+	font-size: 12pt;
+	background-color: #1c2833;
+	border-style: solid;
+	border-color: #d4ac0d;
+	border-radius: 8px;
+	font-weight: bold;
+	font-size: 14pt;
+	color: #ffffff;
+	width: 90px;
+}
+
+.boton {
+	font-weight: bold;
+	font-size: 10pt;
+	border-radius: 8px;
+	background-color: #1c2833;
+	padding: 5px;
+	color: #ffffff;
+}
+
+#btnAgregar {
+	margin-left: 5%;
+}
+
+#btnCancelar {
+	margin-left: 5%;
+
+}
+
+div {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #d4ac0d;
+	border-radius: 8px;
+	padding: 8px;
+	width: auto;
+}
+
+#agregar 
+{
+	
+
+}
+
+#lblItemAgregado {
+	text-align: center;
+	font-weight: bold;
+}
+
+.label {
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+.labelTot {
+	font-weight: bold;
+	font-size: 18pt;
+	color: #ffffff;
+}
+
+#dgvCarrito 
+{
+	table-layout: auto;
+	font-weight: bold;
+	font-size: 18pt;
+	color: #ffffff;
+}

@@ -1,0 +1,47 @@
+﻿body 
+{
+	background-color: #1c2833;
+    font-family: Arial;
+    color: #d4ac0d;
+}
+        
+#form1 
+{
+	background-color: #154360;
+    border-style: solid;
+	border-color:#d4ac0d;
+	padding: 20px;
+	margin-top:15%;
+	margin-right:20%;
+	margin-bottom:20%;
+	margin-left: 35%;
+	border-radius: 8px;
+	width: 300px;
+	
+}
+
+#lblMensaje
+{
+	text-align:center;
+	display: block; margin: 0 auto;
+}
+
+.text {
+	font-size: 12pt;
+	background-color: #1c2833;
+	border-style: solid;
+	border-color: #d4ac0d;
+	border-radius: 8px;
+	font-size: 10pt;
+	color: #ffffff;
+	width: 200px;
+}
+
+#btnLogin {
+	font-weight: bold;
+	font-size: 10pt;
+	border-radius: 8px;
+	background-color: #1c2833;
+	padding: 5px;
+	color: #ffffff;
+}

@@ -53,8 +53,8 @@
     <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.4.1.js" />
     <Content Include="Scripts\jquery-1.4.1.min.js" />
-    <Content Include="StyleCss.css" />
-    <Content Include="StyleDefa.css" />
+    <Content Include="StyleCx.css" />
+    <Content Include="StyleD.css" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
