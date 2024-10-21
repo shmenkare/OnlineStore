@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Data;
 using System.Data.SqlClient;
+using System.Configuration;
 
 namespace OnlineStore
 {
@@ -12,7 +13,8 @@ namespace OnlineStore
         private SqlConnection con;
         private SqlDataAdapter da;
         private DataSet ds;
-        private string cadena = "Data Source=.;Initial Catalog=OnLineStore;Integrated Security=True;Encrypt=False";
+        //private string cadena = "Data Source=.;Initial Catalog=OnLineStore;Integrated Security=True;Encrypt=False";
+        private string cadena = ConfigurationManager.ConnectionStrings["OnlineDB"].ConnectionString;
 
 
         public DataSet Conectar(string sql)

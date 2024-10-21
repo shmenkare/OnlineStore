@@ -10,3 +10,4 @@ F:\Mis Documentos\CURSOS\PROGRAMING\REPOS VISUAL STUDIO\Proyectos .NET FRAMEWORK
 F:\Mis Documentos\CURSOS\PROGRAMING\REPOS VISUAL STUDIO\Proyectos .NET FRAMEWORK\Desarrollador .NET\ASP.NET\OnlineStore\obj\Release\OnlineStore.csproj.GenerateResource.Cache
 F:\Mis Documentos\CURSOS\PROGRAMING\REPOS VISUAL STUDIO\Proyectos .NET FRAMEWORK\Desarrollador .NET\ASP.NET\OnlineStore\obj\Release\OnlineStore.dll
 F:\Mis Documentos\CURSOS\PROGRAMING\REPOS VISUAL STUDIO\Proyectos .NET FRAMEWORK\Desarrollador .NET\ASP.NET\OnlineStore\obj\Release\OnlineStore.pdb
+F:\Mis Documentos\CURSOS\PROGRAMING\REPOS VISUAL STUDIO\Proyectos .NET FRAMEWORK\Desarrollador .NET\ASP.NET\OnlineStore\obj\Release\OnlineStore.csprojResolveAssemblyReference.cache

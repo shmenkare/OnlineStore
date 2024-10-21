@@ -5,13 +5,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
     <title>Productos Disponibles</title>
-    <Link rel="Stylesheet" href ="StyleDefa.css" /> 
+    <Link rel="Stylesheet" href ="StyleD.css" /> 
   
 </head>
 
 <body>
-   
-   <form id="form" runat="server">
+
+<form id="form" runat="server">
    <h2>Bienvenido:  <asp:Label ID="lblClienteLog" runat="server"></asp:Label> <asp:Button ID="btnSalir" runat="server" Text="Log off" 
            onclick="btnSalir_Click" Class="boton" /></h2>
    
@@ -114,5 +114,8 @@
     
    
     </form>
+
+   
+   
 </body>
 </html>

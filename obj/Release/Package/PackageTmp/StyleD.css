@@ -4,17 +4,19 @@
 	color: #d4ac0d;
 }
 
-#form {
+#form 
+{
 	background-color: #154360;
 	border-style: solid;
 	border-color: #d4ac0d;
 	padding: 20px;
 	margin-top: 2%;
-	margin-right: 20%;
+	margin-right: 30%;
 	margin-bottom: 40%;
-	margin-left: 35%;
+	/*margin-left: 28%;*/
 	border-radius: 8px;
 	width: 500px;
+	
 }
 
 #txtCantidad {
