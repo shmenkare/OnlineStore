@@ -102,10 +102,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="App_Themes\Tema Default\" />
-    <Folder Include="App_Themes\Tema1\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Themes\Principal\SkinGrid.skin" />
     <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
