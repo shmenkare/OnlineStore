@@ -18,6 +18,8 @@ namespace OnlineStore
         private static List<Carrito> carrito;
         
 
+       //OBTENER PRODUCTOS
+        
         public static List<Productos> ProductosDisponibles()
         {
             con = new Conexion();
@@ -34,6 +36,8 @@ namespace OnlineStore
             return productos;
         }
 
+        //OBTENER CLIENTES
+
         public static List<Clientes> ClientesRegistrados()
         {
             con = new Conexion();
@@ -48,6 +52,9 @@ namespace OnlineStore
             }
             return clientes;
         }
+
+
+        //OBTENER DEPARTAMENTOS
 
         public static List<Departamentos> DepartamentosRegistrados()
         {
@@ -64,6 +71,8 @@ namespace OnlineStore
             return departamentos;
         }
 
+        //OBTENER ID PRODUCTO
+
         public static int Idproducto(string name)
         {
             con = new Conexion();
@@ -73,6 +82,8 @@ namespace OnlineStore
 
             return id;
         }
+
+        //REALIZAR PEDIDO
 
         public static void InicializarPedido()
         {
@@ -86,6 +97,8 @@ namespace OnlineStore
             int ped = int.Parse(ds.Tables[0].Rows[0]["Id_Pedido"].ToString());
             return ped;
         }
+
+        //LLENAR CARRITO
 
         public static void RealizarPedido(int id_pedido, int id_Prod, string nombre, int cantidad_Item, float subtotal)
         {

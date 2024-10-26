@@ -49,12 +49,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
-    <Content Include="login.aspx" />
+    <Content Include="Login.aspx" />
     <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.4.1.js" />
     <Content Include="Scripts\jquery-1.4.1.min.js" />
     <Content Include="StyleCx.css" />
-    <Content Include="StyleD.css" />
+    <Content Include="Hoja.css" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -66,9 +66,9 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Carrito.cs" />
-    <Compile Include="Clientes.cs" />
-    <Compile Include="Conexion.cs" />
+    <Compile Include="Clases\Carrito.cs" />
+    <Compile Include="Clases\Clientes.cs" />
+    <Compile Include="Clases\Conexion.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -76,16 +76,16 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Departamentos.cs" />
-    <Compile Include="login.aspx.cs">
-      <DependentUpon>login.aspx</DependentUpon>
+    <Compile Include="Clases\Departamentos.cs" />
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="login.aspx.designer.cs">
-      <DependentUpon>login.aspx</DependentUpon>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Metodos.cs" />
-    <Compile Include="Productos.cs" />
+    <Compile Include="Clases\Metodos.cs" />
+    <Compile Include="Clases\Productos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -97,8 +97,8 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Include="Sistema.cs" />
-    <Compile Include="Ventas.cs" />
+    <Compile Include="Clases\Sistema.cs" />
+    <Compile Include="Clases\Ventas.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

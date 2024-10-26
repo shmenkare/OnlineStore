@@ -4,8 +4,8 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
-    <title>Productos Disponibles</title>
-    <Link rel="Stylesheet" href ="StyleD.css" /> 
+    <title>Online Store</title>
+    <Link rel="Stylesheet" href ="Hoja.css" /> 
   
 </head>
 
@@ -27,20 +27,20 @@
 <asp:Label ID="lblDepartamentos" runat="server" Text="Departamentos" AssociatedControlID= "ddlDepartamentos" Class="label"></asp:Label>
 <asp:DropDownList ID="ddlDepartamentos" runat="server" AutoPostBack="True" 
     onselectedindexchanged="ddlDepartamentos_SelectedIndexChanged" 
-    BackColor="#1C2833" Font-Bold="True" Font-Overline="False" Font-Size="14pt" 
-    ForeColor="White">
-</asp:DropDownList>
+    BackColor="#1C2833" Font-Bold= "true" Font-Overline= "false" 
+    Font-Size= "14pt" ForeColor= "White"></asp:DropDownList>
 
    </div>
-<br />
+<br /> 
 
    <div id= "inventario">
 
 <h3>Inventario</h3>
-<asp:ListBox ID="lsbProductos" runat="server" AutoPostBack="True" 
-    onselectedindexchanged="lsbProductos_SelectedIndexChanged" 
-    BackColor="#1C2833" CssClass="lista" Font-Bold="True" Font-Size="18pt" 
-    ForeColor="White" Height="226px" Width="259px"></asp:ListBox>
+<asp:ListBox ID="lsbProductos" runat="server" 
+    onselectedindexchanged="lsbProductos_SelectedIndexChanged"
+    BackColor="#1C2833" Font-Bold= "true" Font-Overline= "false" 
+    Font-Size= "20pt" ForeColor= "White" Width="312px"></asp:ListBox>
+
 <asp:Label ID="Label4" runat="server" Text="Precio Item: " Class="label"></asp:Label>
 <asp:Label ID="lblPrecio" runat="server" Class="labelTot"></asp:Label>
 <asp:Label ID="Label2" runat="server" Text=" $" Class="labelTot"></asp:Label>
@@ -79,9 +79,10 @@
     
 <h3>Carrito</h3>
 <br />
-<asp:GridView ID="dgvCarrito" runat="server" Font-Size="12pt" 
+<asp:GridView ID="dgvCarrito" runat="server" Font-Size="14pt" 
        AutoGenerateColumns="False" EnableModelValidation="True" Height="214px" 
-       Width="413px">
+       Width="567px" CellPadding="4" GridLines="None" ForeColor="#333333">
+    <AlternatingRowStyle BackColor="White" />
     <Columns>
         <asp:BoundField DataField="Id_Pedido" HeaderText="Pedido Nro" />
         <asp:BoundField DataField="Id_Prod" HeaderText="Id Item" />
@@ -89,6 +90,14 @@
         <asp:BoundField DataField="Cantidad_Item" HeaderText="Catidad" />
         <asp:BoundField DataField="Subtotal" HeaderText="Subtotal" />
     </Columns>
+   
+    <EditRowStyle BackColor="#7C6F57" />
+   
+    <FooterStyle BackColor="#1C5E55" ForeColor="White" Font-Bold="True" />
+    <HeaderStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
+    <PagerStyle BackColor="#666666" ForeColor="White" HorizontalAlign="Center" />
+    <RowStyle BackColor="#E3EAEB" />
+    <SelectedRowStyle BackColor="#C5BBAF" Font-Bold="True" ForeColor="#333333" />
    
 </asp:GridView>
 

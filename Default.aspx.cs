@@ -39,7 +39,7 @@ namespace OnlineStore
                 lblTotalPedido.Visible = false;
                 lblItemAgregado.Visible = false;
                 clienteLogeado = new Clientes();
-                clienteLogeado =(Clientes)Session["ClienteLogueado"];
+                clienteLogeado = (Clientes)Session["ClienteLogueado"];
                 lblClienteLog.Text = clienteLogeado.Nombre;
                
             }

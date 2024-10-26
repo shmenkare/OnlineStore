@@ -1,7 +1,0 @@
-F:\Mis Documentos\CURSOS\PROGRAMING\REPOS VISUAL STUDIO\Proyectos .NET FRAMEWORK\Desarrollador .NET\OnlineStore\bin\OnlineStore.dll
-F:\Mis Documentos\CURSOS\PROGRAMING\REPOS VISUAL STUDIO\Proyectos .NET FRAMEWORK\Desarrollador .NET\OnlineStore\bin\OnlineStore.pdb
-F:\Mis Documentos\CURSOS\PROGRAMING\REPOS VISUAL STUDIO\Proyectos .NET FRAMEWORK\Desarrollador .NET\OnlineStore\obj\Debug\OnlineStore.dll
-F:\Mis Documentos\CURSOS\PROGRAMING\REPOS VISUAL STUDIO\Proyectos .NET FRAMEWORK\Desarrollador .NET\OnlineStore\obj\Debug\OnlineStore.pdb
-F:\Mis Documentos\CURSOS\PROGRAMING\REPOS VISUAL STUDIO\Proyectos .NET FRAMEWORK\Desarrollador .NET\OnlineStore\obj\Debug\OnlineStore.csprojResolveAssemblyReference.cache
-F:\Mis Documentos\CURSOS\PROGRAMING\REPOS VISUAL STUDIO\Proyectos .NET FRAMEWORK\Desarrollador .NET\OnlineStore\obj\Debug\OnlineStore.Properties.Resources.resources
-F:\Mis Documentos\CURSOS\PROGRAMING\REPOS VISUAL STUDIO\Proyectos .NET FRAMEWORK\Desarrollador .NET\OnlineStore\obj\Debug\OnlineStore.csproj.GenerateResource.Cache
