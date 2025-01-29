@@ -4,3 +4,16 @@ F:\Mis Documentos\Visual Studio 2010\REPOS VISUAL STUDIO\Proyectos .NET FRAMEWOR
 F:\Mis Documentos\Visual Studio 2010\REPOS VISUAL STUDIO\Proyectos .NET FRAMEWORK\Desarrollador .NET\ASP.NET\Onlinestore\obj\Release\OnlineStore.csproj.GenerateResource.Cache
 F:\Mis Documentos\Visual Studio 2010\REPOS VISUAL STUDIO\Proyectos .NET FRAMEWORK\Desarrollador .NET\ASP.NET\Onlinestore\obj\Release\OnlineStore.dll
 F:\Mis Documentos\Visual Studio 2010\REPOS VISUAL STUDIO\Proyectos .NET FRAMEWORK\Desarrollador .NET\ASP.NET\Onlinestore\obj\Release\OnlineStore.pdb
+F:\Mis Documentos\CURSOS\PROGRAMING\REPOS VISUAL STUDIO\Proyectos .NET FRAMEWORK\Desarrollador .NET\ASP.NET\OnlineStore\bin\OnlineStore.dll
+F:\Mis Documentos\CURSOS\PROGRAMING\REPOS VISUAL STUDIO\Proyectos .NET FRAMEWORK\Desarrollador .NET\ASP.NET\OnlineStore\bin\OnlineStore.pdb
+F:\Mis Documentos\CURSOS\PROGRAMING\REPOS VISUAL STUDIO\Proyectos .NET FRAMEWORK\Desarrollador .NET\ASP.NET\OnlineStore\obj\Release\OnlineStore.Properties.Resources.resources
+F:\Mis Documentos\CURSOS\PROGRAMING\REPOS VISUAL STUDIO\Proyectos .NET FRAMEWORK\Desarrollador .NET\ASP.NET\OnlineStore\obj\Release\OnlineStore.csproj.GenerateResource.Cache
+F:\Mis Documentos\CURSOS\PROGRAMING\REPOS VISUAL STUDIO\Proyectos .NET FRAMEWORK\Desarrollador .NET\ASP.NET\OnlineStore\obj\Release\OnlineStore.dll
+F:\Mis Documentos\CURSOS\PROGRAMING\REPOS VISUAL STUDIO\Proyectos .NET FRAMEWORK\Desarrollador .NET\ASP.NET\OnlineStore\obj\Release\OnlineStore.pdb
+F:\Mis Documentos\CURSOS\PROGRAMING\REPOS VISUAL STUDIO\Proyectos .NET FRAMEWORK\MIS PROGRAMAS\ASP.NET\OnlineStore\bin\OnlineStore.dll
+F:\Mis Documentos\CURSOS\PROGRAMING\REPOS VISUAL STUDIO\Proyectos .NET FRAMEWORK\MIS PROGRAMAS\ASP.NET\OnlineStore\bin\OnlineStore.pdb
+F:\Mis Documentos\CURSOS\PROGRAMING\REPOS VISUAL STUDIO\Proyectos .NET FRAMEWORK\MIS PROGRAMAS\ASP.NET\OnlineStore\obj\Release\OnlineStore.csprojResolveAssemblyReference.cache
+F:\Mis Documentos\CURSOS\PROGRAMING\REPOS VISUAL STUDIO\Proyectos .NET FRAMEWORK\MIS PROGRAMAS\ASP.NET\OnlineStore\obj\Release\OnlineStore.Properties.Resources.resources
+F:\Mis Documentos\CURSOS\PROGRAMING\REPOS VISUAL STUDIO\Proyectos .NET FRAMEWORK\MIS PROGRAMAS\ASP.NET\OnlineStore\obj\Release\OnlineStore.csproj.GenerateResource.Cache
+F:\Mis Documentos\CURSOS\PROGRAMING\REPOS VISUAL STUDIO\Proyectos .NET FRAMEWORK\MIS PROGRAMAS\ASP.NET\OnlineStore\obj\Release\OnlineStore.dll
+F:\Mis Documentos\CURSOS\PROGRAMING\REPOS VISUAL STUDIO\Proyectos .NET FRAMEWORK\MIS PROGRAMAS\ASP.NET\OnlineStore\obj\Release\OnlineStore.pdb

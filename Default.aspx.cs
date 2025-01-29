@@ -63,32 +63,38 @@ namespace OnlineStore
 
         private void CargarProductosPorDepartamento()
         {
+            //idDepartamentoSeleccionado = int.Parse(ddlDepartamentos.SelectedValue);
+            //todosLosProductos = Sistema.ProductosDisponibles();
+            //productosFiltrados = new List<Productos>();
+
+            //foreach (var producto in todosLosProductos)
+            //{
+            //    if (producto.Id_Dep == idDepartamentoSeleccionado)
+            //    {
+            //        productosFiltrados.Add(producto);
+            //    }
+            //}
+
+            //lsbProductos.DataSource = ProductosMostrar(productosFiltrados);
+            //lsbProductos.DataTextField = "Nombre";
+            //lsbProductos.DataValueField = "Precio";
+            //lsbProductos.DataBind();
+
+            //lblPrecio.Text = "";
+
+            //  ASI SERIA EL CODIGO USANDO LINQ  
+
             idDepartamentoSeleccionado = int.Parse(ddlDepartamentos.SelectedValue);
-            todosLosProductos = Sistema.ProductosDisponibles();
-            productosFiltrados = new List<Productos>();
+            var productos = Sistema.ProductosDisponibles().Where(p => p.Id_Dep == idDepartamentoSeleccionado).ToList();
 
-            foreach (var producto in todosLosProductos)
-            {
-                if (producto.Id_Dep == idDepartamentoSeleccionado)
-                {
-                    productosFiltrados.Add(producto);
-                }
-            }
-
-            lsbProductos.DataSource = ProductosMostrar(productosFiltrados);
+            lsbProductos.DataSource = productos;
             lsbProductos.DataTextField = "Nombre";
             lsbProductos.DataValueField = "Precio";
             lsbProductos.DataBind();
 
             lblPrecio.Text = "";
 
-            //  ASI SERIA EL CODIGO USANDO LINQ  
-
-            //int idDepartamentoSeleccionado = int.Parse(ddlDepartamentos.SelectedValue);
-            //productos = Sistema.ProductosDisponibles().Where(p => p.Id_Dep == idDepartamentoSeleccionado).ToList();
-
-            //dgvInventario.DataSource = productos;
-            //dgvInventario.DataBind();
+           
         }
 
         protected void lsbProductos_SelectedIndexChanged(object sender, EventArgs e)
